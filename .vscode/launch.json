@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/Index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/Index.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/video4/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/video4/index.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/video4/bookmarkmanager.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/video4/bookmarkmanager.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/video5/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/video5/index.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/video6/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/video6/index.html"
+        }
+    ]
+}
