@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable</title>
+    <style>
+        :root{
+            --color:rgb(229, 11, 160);
+            --seccolor:rgb(230, 176, 214);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     .nav{
+        background-color: var(--color);
+     }
+     ul{
+        display:flex;
+     }
+     ul li{
+        list-style: none;
+        padding: 34px;
+        border: 2px solid var(--seccolor);
+     }
+     ul li:first-child{
+         --color:rgb(248, 96, 8);
+         background-color: var(--color);
+
+     }
+     .cantainer{
+        background-color: var(--seccolor);
+     }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+        <div class="cantainer">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit deserunt accusantium recusandae cupiditate, possimus assumenda modi atque obcaecati earum ipsum aut vitae delectus sunt, quibusdam voluptate numquam qui consequatur?
+            Fuga dolor velit perferendis iste perspiciatis laborum tenetur quae fugit. Quaerat tenetur nihil deleniti eveniet accusantium! Facere voluptatum libero neque nulla, cumque quo similique quibusdam, explicabo perspiciatis vitae recusandae? Nam?
+            Nisi officiis quidem tenetur libero iusto illum architecto sint consectetur cum et nihil unde laudantium quo aliquid at error magnam cupiditate sed eligendi voluptatibus, harum asperiores qui culpa. Voluptate, reiciendis?
+            Eos enim quidem magni ullam officiis maxime doloribus perspiciatis fugit id? Cum ullam nobis dignissimos? Voluptas vel velit ad repellat numquam, nemo quae consectetur labore enim dolorem dignissimos recusandae ab.
+            Quidem vitae nemo eaque fuga doloribus eius! Error incidunt magni sunt fuga maxime quia expedita, vero quisquam molestiae, cupiditate ea tenetur, ratione a aut voluptatibus nam odio? Neque, ullam tempora.
+            Temporibus minus, aliquid enim ullam rerum numquam voluptatem provident dolores molestias, cum harum natus dolorum at dolor? Voluptates libero in ipsum facilis at, tempore ab quae, incidunt voluptas et nemo?
+            Cupiditate labore numquam optio ipsum, expedita minima! Quisquam expedita impedit non accusamus asperiores voluptates nulla ea maxime delectus, cum vel praesentium cumque natus repellendus doloribus rem iusto molestias temporibus! Nisi!
+            Expedita obcaecati tempore quaerat debitis cumque similique culpa temporibus sequi veritatis ea tempora officiis neque libero earum, nobis, dolores distinctio magni quo rerum blanditiis? Obcaecati ratione vero ducimus doloribus enim!
+            Obcaecati magni exercitationem tenetur, culpa, iusto expedita enim perferendis, animi eius dolor eligendi aliquam aut itaque eveniet. Doloribus minima praesentium officiis earum quas mollitia, minus fuga iste voluptate repudiandae cum?
+            Natus aut inventore eveniet mollitia magni perspiciatis, aliquam nemo eaque. Aliquam accusamus corrupti iure quis blanditiis, quod doloribus rerum ab autem iusto laboriosam tempore, at beatae voluptate sint eligendi nam?
+    </div>
+    
+</body>
+</html>
